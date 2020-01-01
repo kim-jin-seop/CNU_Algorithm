@@ -1,8 +1,18 @@
 # Algorithm Study
 ### 충남대학교 컴퓨터공학과 김진섭  
 ---------------------------------------------------------------------
+# Insert_Bubble_select_Sort_JAVA  
+[알고리즘] 선택정렬, 버블정렬, 삽입정렬 구현  
+- 시간복잡도 : O(n^2)
+- 삽입정렬 : 모두 정렬되어있는 데이터면 O(n)
+
+# Merge_Quick_Sort_JAVA
+[알고리즘] 퀵정렬, 합병정렬 구현  
+- 시간복잡도 : O(nlogn)
+- Quick Sort : 정렬되어있는 경우 O(n^2)
+
 # LCS_JAVA
-Longest Common Subsequence
+[알고리즘] Longest Common Subsequence
 
 input File
 -> data1 Length\ndata1\ndata2 Length\ndata2
