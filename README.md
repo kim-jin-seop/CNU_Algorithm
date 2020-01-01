@@ -71,6 +71,9 @@ LCS를 재귀적으로 생각하여 보면, X를 x1x2x3x4…로 이루어진 Str
 - BFS  
 너비우선 탐색 알고리즘  
 
+## Prim_Kruskal_JAVA
+[알고리즘] 프림과 크루스칼 
+
 ## Dijkstra_Bellman-Ford_Java 
 
 [알고리즘] 다익스트라와 벨만포드 알고리즘 구현
