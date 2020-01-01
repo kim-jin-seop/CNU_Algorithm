@@ -23,8 +23,8 @@ public class Prim {
 		System.out.println(" ");
 	}
 
-	public void doPrim() {
-		result[0].key = 0;
+	public void doPrim(int start) {
+		result[start].key = 0;
 		ArrayList<vertex> Q = new ArrayList<vertex>();
 		for(int i = 0; i < result.length; i++) {
 			Q.add(result[i]);

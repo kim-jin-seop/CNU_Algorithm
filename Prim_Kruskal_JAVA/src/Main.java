@@ -36,10 +36,11 @@ public class Main {
 				int j = Integer.parseInt(st.nextToken());
 				int result = Integer.parseInt(st.nextToken());
 				graphdata[i][j] = result;
+				graphdata[j][i] = result;
 				Edge.add(new Edge(result,i,j));
 			}
 			Prim prim = new Prim(graphdata);
-			prim.doPrim();
+			prim.doPrim(0);
 			prim.doPrint(fw1);
 			
 			Kruskal kruskal = new Kruskal(Edge, graphdata.length);
