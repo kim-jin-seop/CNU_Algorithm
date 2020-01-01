@@ -7,6 +7,7 @@
 [알고리즘] 선택정렬, 버블정렬, 삽입정렬 구현  
 - 시간복잡도 : O(n^2)
 - 삽입정렬 : 모두 정렬되어있는 데이터면 O(n)
+
 ## Merge_Quick_Sort_JAVA
 [알고리즘] 퀵정렬, 합병정렬 구현  
 - 시간복잡도 : O(nlogn)
@@ -16,6 +17,16 @@
 [알고리즘] Heap Sort, Count Sort
 - Heap Sort : O(nlogn)
 - Count Sort : O(n) (단, n은 데이터의 값의 크기)
+---------------------------------------------------------------------
+# Tree 알고리즘  
+## [AL]BST
+[알고리즘] Binary Search Tree
+- 데이터를 삽입할 때 왼쪽으로 작은값 오른쪽으로 큰 값으로 삽입  
+- tree의 높이가 낮다면 O(logn)만에 데이터 찾기 가능
+
+## Red_Black_Tree_JAVA  
+[알고리즘] Red Black Tree
+- BST인데 균형을 맞추기 위하여 노력을 한 Tree
 ---------------------------------------------------------------------
 ## LCS_JAVA
 [알고리즘] Longest Common Subsequence
